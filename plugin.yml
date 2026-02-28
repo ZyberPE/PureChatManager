@@ -1,0 +1,23 @@
+name: PureChatManager
+main: PureChatManager\Main
+version: 1.0.0
+api: 5.0.0
+author: ZyberPEP
+description: Manage PureChat prefixes and suffixes.
+
+commands:
+  setsuffix:
+    description: Set a player's suffix
+    usage: /setsuffix <player> <suffix>
+    permission: purechat.use
+
+  setprefix:
+    description: Set a player's prefix
+    usage: /setprefix <player> <prefix>
+    permission: purechat.usee
+
+permissions:
+  purechat.use:
+    default: op
+  purechat.usee:
+    default: op
