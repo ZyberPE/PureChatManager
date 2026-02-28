@@ -1,0 +1,6 @@
+messages:
+  prefix-set-success: "§aSuccessfully set prefix for {player} to {prefix}"
+  suffix-set-success: "§aSuccessfully set suffix for {player} to {suffix}"
+  changed-notify: "§eYour {type} was changed to {value} by {sender}"
+  player-not-found: "§cPlayer not found."
+  no-permission: "§cYou do not have permission."
